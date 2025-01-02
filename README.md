@@ -1,16 +1,20 @@
-# fast_call_food_project
+สรุปการทำงานของแอปพลิเคชัน
+แอปพลิเคชันนี้เป็นแอปสำหรับค้นหาและแนะนำร้านอาหาร โดยมีฟีเจอร์หลักดังนี้:
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Splash Screen: เมื่อเปิดแอปพลิเคชัน ผู้ใช้จะเห็นหน้าจอ Splash Screen ที่แสดงข้อความและแอนิเมชันการโหลดขณะเตรียมพร้อมแอปพลิเคชัน
+หน้าหลัก (FastFoodUI): หลังจาก Splash Screen ผู้ใช้จะเข้าสู่หน้าหลักของแอปพลิเคชัน ซึ่งจะแสดงรายการร้านอาหารต่างๆ
+การแสดงข้อมูลร้านอาหาร: แอปพลิเคชันจะแสดงข้อมูลร้านอาหาร เช่น ชื่อร้าน เว็บไซต์ เฟซบุ๊ก เบอร์โทรศัพท์ รูปภาพ และตำแหน่งที่ตั้ง
+โครงสร้างข้อมูล
+FoodList: เป็นโมเดลข้อมูลที่ใช้เก็บรายละเอียดของร้านอาหารแต่ละร้าน ประกอบด้วย:
+ชื่อร้าน (name)
+เว็บไซต์ (website)
+เฟซบุ๊ก (facebook)
+เบอร์โทรศัพท์ (mobile)
+รูปภาพ (image)
+ละติจูด (latitude)
+ลองจิจูด (longitude)
+การใช้งาน
+เปิดแอปพลิเคชัน
+รอหน้าจอ Splash Screen จนกว่าจะโหลดเสร็จ
+เข้าสู่หน้าหลักเพื่อดูรายการร้านอาหาร
+เลือกร้านอาหารเพื่อดูรายละเอียดเพิ่มเติม
